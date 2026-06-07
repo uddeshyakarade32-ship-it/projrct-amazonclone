@@ -117,3 +117,56 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
+.herosection{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.heromessage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 29px;
+}
+.heromessage a {
+    color: #007185;
+}
+.box{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shopsection{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.boximag{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxcontent p{
+    color: #007185;
+}
+.box h2 {
+    margin-left: 1rem;
+}
+
